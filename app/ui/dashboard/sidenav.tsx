@@ -1,4 +1,4 @@
-import AcmeLogo from '@/app/ui/acme-logo';
+import ByteBlazeLogo from '@/app/ui/byteblaze-logo';
 import NavLinks from '@/app/ui/dashboard/nav-links';
 import { signOut } from '@/auth';
 import { PowerIcon } from '@heroicons/react/24/outline';
@@ -12,7 +12,7 @@ export default function SideNav() {
         href="/"
       >
         <div className="w-32 text-white md:w-40">
-          <AcmeLogo />
+          <ByteBlazeLogo />
         </div>
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
